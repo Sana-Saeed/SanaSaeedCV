@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sana Saeed - CV</title>
+        <meta name="Author" content="Sana Saeed"/>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <script src="js/jquery-1.12.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body class="cv-page" style="top: 0px; left: 0px;">
+        <div class="page">
+            <!-- Header Section -->
+            <div class="bg1 site-header top-pic" id="top-pic" style="background: url(profile-background.jpg) no-repeat scroll top" title="Your Background Image">
+                <div class="header cust-header">
+                    <img width="200" height="200" title="Sana Saeed" alt="Sana Saeed" src="images/sana_profile.jpeg" class="img-circle imgme" style="float: left;"/>
+                    <div class="text-header">
+                        <h1 id="name">Sana Saeed</h1>
+                        Computer Science PhD Student<br>
+                        Office: 123 Academic Building<br>
+                        sana.saeed [at] university [dot] edu<br>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="page-content">
+                <!-- Contact Icons -->
+                <div class="icons mb-4">
+                    <a href="https://twitter.com/sana_saeed"><img src="icons/twitter.png" width="32" alt="Twitter Icon"></a>
+                    <a href="https://www.linkedin.com/in/sana-saeed-nlp/"><img src="icons/Linkedin.png" width="32" alt="LinkedIn Icon"></a>
+                    <a href="https://github.com/Sana-Saeed"><img src="icons/github.svg" width="32" alt="GitHub Icon"></a>
+                    <a href="https://bitbucket.org/Sana-Saeed"><img src="icons/bitbucket.png" width="32" alt="Bitbucket Icon"></a>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="text skills" id="skills">
+                    <h2>Skills</h2>
+                    <p>
+                        <strong>Natural Language Processing:</strong> NLTK, SpaCy, transformers, Sentiment analysis, NER, PoS, Topic modeling<br>
+                        <strong>LLMs:</strong> BERT, XLNet, Llama2, GPT<br>
+                        <strong>Machine Learning:</strong> TensorFlow, Keras, PyTorch, scikit-learn, Clustering, CNN, RNN<br>
+                        <strong>Digital Image Processing:</strong> OpenCV, YOLO, Object tracking, Background modeling<br>
+                        <strong>Programming Languages:</strong> Python, R, Matlab, C/C++, HTML, JavaScript<br>
+                        <strong>Databases:</strong> DBbrowser, SQL<br>
+                        <strong>Miscellaneous:</strong> LaTeX, Technical Writing, Team player
+                    </p>
+                </div>
+
+                <!-- Projects Section -->
+                <div class="text projects" id="projects">
+                    <h2>Projects</h2>
+                    <h3>Conversational Restaurant Recommendation Based on User Reviews Analysis</h3>
+                    <p><strong>Technologies:</strong> Python, BERT, GPT-2, GNNs, Dynamic KG, LSTMs</p>
+                    <ul>
+                        <li>Designed a machine learning pipeline integrating conversational systems and aspect-based sentiment analysis.</li>
+                        <li>Incorporated dynamic knowledge graphs, GNNs, and ABSA to enhance recommendation accuracy.</li>
+                    </ul>
+
+                    <h3>Aspect-based Sentiment Analysis for Restaurant Reviews</h3>
+                    <p><strong>Technologies:</strong> Python, BERT, XLNet, Llama2, DBbrowser, SQL</p>
+                    <ul>
+                        <li>Identified and incorporated new aspects missing in existing datasets.</li>
+                        <li>Developed an annotation tool, "ConAno," reducing annotation time by 25%.</li>
+                        <li>Trained various LLMs (BERT, RoBERTa, Llama2, XLNet) for explicit and implicit aspect detection, addressing data imbalances.</li>
+                        <li>Achieved 96% accuracy in multi-class multi-label aspect detection using LLMs.</li>
+                        <li>Conducted sentiment polarity detection for sentiment analysis using LLMs.</li>
+                    </ul>
+
+                    <h3>Food Name Recognition for Lightweight Applications</h3>
+                    <p><strong>Technologies:</strong> Python, NLTK, SpaCy</p>
+                    <ul>
+                        <li>Fine-tuned the SpaCy NER module for food name recognition.</li>
+                        <li>Addressed catastrophic forgetting during training by diversifying the dataset.</li>
+                        <li>Developed a template-based auto data labeling method to replace manual processes, ensuring dataset compatibility.</li>
+                        <li>Incorporated a heuristic-based filtering approach to achieve a precision score of 1 in downstream tasks.</li>
+                    </ul>
+
+                    <h3>Feature-Centric Mobile App Grouping</h3>
+                    <p><strong>Technologies:</strong> Python, NLTK, scikit-learn, BERT, GPT, SimCSE, DBbrowser, SQL, JAX</p>
+                    <p><strong>Project Goal:</strong> Categorize and organize mobile applications efficiently in marketplaces. Current methods struggle to group similar apps by function, relying on metadata, causing user experience issues.</p>
+                    <ul>
+                        <li>Performed context enrichment using deep neural networks and LLMs (BERT, GPT).</li>
+                        <li>Applied hierarchical agglomerative clustering to evaluate cluster quality at multiple granularity levels using various intrinsic and extrinsic evaluation measures.</li>
+                        <li>Future Plan: Incorporate probabilistic programming using JAX to improve results.</li>
+                    </ul>
+
+                    <h3><a href="https://github.com/Sana-Saeed/Automate-Text-Pruning">Automated Text Pruning for Redundancy Removal</a></h3>
+                    <p><strong>Technologies:</strong> Python, NLTK, scikit-learn, BERT</p>
+                    <ul>
+                        <li>Developed an automated mechanism to eliminate redundant information and select relevant text from large datasets using K-means Clustering and Cosine similarity.</li>
+                        <li>Incorporated a vectorized approach for efficient execution and similarity comparison.</li>
+                        <li>Increased unique word count from 921 to 15873 and type-token ratio from 0.53 to 1.7.</li>
+                    </ul>
+
+                    <h3>Automated Galib's Poetry Generation</h3>
+                    <p><strong>Technologies:</strong> Python, TensorFlow, Keras, NLTK</p>
+                    <ul>
+                        <li>Trained Recurrent Neural Networks and Gated Neural Networks to replicate the style of Mirza Galib (a well-known Urdu poet) for poetry.</li>
+                    </ul>
+
+                    <h3>Vehicle Stall Detection and Analysis</h3>
+                    <p><strong>Technologies:</strong> Matlab, Python, OpenCV, YOLO</p>
+                    <ul>
+                        <li>Developed a system for detecting instances of illegal vehicle stalls from video footage using background modeling and object identification (using YOLO).</li>
+                        <li>Performed post-stall detection analysis, including obstacle and pedestrian detection, to classify stalls as either legitimate or illegal, achieving accuracy between 0.85 to 0.98 on various datasets.</li>
+                    </ul>
+                </div>
+
+                <!-- Publications Section -->
+                <div class="text publications" id="publications">
+                    <h2>Publications</h2>
+                    <h3>Journal Papers:</h3>
+                    <ul>
+                        <li><strong>Sana Saeed</strong> and Kashif Bilal (2024). “Feature-Centric Mobile Applications Clustering Using GPT-3 Enabled Context Enrichment”. <em>(Submitted)</em></li>
+                        <li>Sana Saeed, Kashif Bilal, and Ali Haider (2024). “Transformer-Based Restaurant Review Classification for Power-Law Label Distribution”. <em>(In process)</em></li>
+                        <li>Sana Saeed, Kashif Bilal, Zia-Ur-Rehman, et al. (2022). “Object Identification Based Stall Detection and Stall Legitimacy Analysis for Traffic Patterns in Developing Countries”. <em>Journal of Electronic Imaging</em>.</li>
+                    </ul>
+
+                    <h3>Conference Papers:</h3>
+                    <ul>
+                        <li>Sana Saeed, K. Bilal (2024), "Feature-Centric Mobile Applications Clustering with Generative AI". In: International Conference on Foundation and Large Language Models (FLLM), Dubai, UAE: IEEE <em>(Accepted)</em></li>
+                        <li>Haider, Ali et al. (2023). “A Hybrid Approach for Food Name Recognition in Restaurant Reviews”. In: 2023 International Symposium on Networks, Computers and Communications (ISNCC), Doha, Qatar: IEEE.</li>
+                        <li>Saeed, Sana, Ali Hader, and Kashif Bilal (2023). “Automated Text Selection for Raw Data Annotation”. In: 20th International Conference on Frontiers of Information Technology (FIT’23), Islamabad, Pakistan: IEEE.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience Section -->
+                <div class="text experience" id="experience">
+                    <h2>Experience</h2>
+                    <h3>Higher Education Department</h3>
+                    <p><strong>Position:</strong> Lecturer<br><strong>Duration:</strong> Oct 2018 – Ongoing</p>
+                    <ul>
+                        <li><strong>Taught Subjects:</strong> Programming Fundamentals (C/C++), Visual Programming (C#), Database Systems, Artificial Intelligence, Digital Image Processing, Machine Learning, Parallel and Distributed Computing</li>
+                        <li><strong>Administrative Duties:</strong> Head of Department, Nominated as focal person for IT-related matters of the college.</li>
+                    </ul>
+
+                    <h3>Abbottabad University of Science and Technology</h3>
+                    <p><strong>Position:</strong> Lecturer<br><strong>Duration:</strong> Sept 2017 – Sept 2018</p>
+                    <ul>
+                        <li><strong>Taught Subjects:</strong> Data Structure and Algorithms, Artificial Intelligence, Introduction to Computing, Web Programming, Natural Language Processing</li>
+                    </ul>
+
+                    <h3>Govt. Girls Degree College No. 1 Abbottabad</h3>
+                    <p><strong>Position:</strong> Lab Engineer<br><strong>Duration:</strong> Dec 2016 - Oct 2017</p>
+                    <ul>
+                        <li>Prepared C/C++, C#, and MATLAB lab manuals for undergraduate students.</li>
+                        <li>Lab maintenance including software installation, hardware maintenance, and lab configuration.</li>
+                    </ul>
+                </div>
+
+                <!-- Education Section -->
+                <div class="text education" id="education">
+                    <h2>Education</h2>
+                    <p><strong>PhD in Computer Science</strong><br>
+                        Comsats University Islamabad<br>
+                        <span class="text-muted"><i class="fa fa-calendar"></i> 2021 - Present</span> &nbsp;&nbsp; <i class="fa fa-trophy"></i> CGPA: 3.83/4<br>
+                        <strong>Specialization:</strong> Natural Language Processing, Machine Learning
+                    </p>
+
+                    <p><strong>MS in Computer Science</strong><br>
+                        Comsats University Islamabad<br>
+                        <span class="text-muted"><i class="fa fa-calendar"></i> 2017 - 2019</span> &nbsp;&nbsp; <i class="fa fa-trophy"></i> CGPA: 3.68/4<br>
+                        <strong>Specialization:</strong> Digital Image Processing, Machine Learning
+                    </p>
+
+                    <p><strong>BS in Computer Science</strong><br>
+                        Hazara University Mansehra<br>
+                        <span class="text-muted"><i class="fa fa-calendar"></i> 2012 - 2016</span> &nbsp;&nbsp; <i class="fa fa-trophy"></i> CGPA: 3.98/4
+                    </p>
+                </div>
+
+                <!-- Coursework Section -->
+                <div class="text coursework" id="coursework">
+                    <h2>Coursework</h2>
+                    <p><strong>PhD:</strong></p>
+                    <ul>
+                        <li>Natural Language Processing (NLP)</li>
+                        <li>Machine Learning</li>
+                        <li>Distributed Computing</li>
+                    </ul>
+
+                    <p><strong>MS in Computer Science:</strong></p>
+                    <ul>
+                        <li>Artificial Intelligence (AI)</li>
+                        <li>Digital Image Processing (DIP)</li>
+                        <li>Machine Learning</li>
+                        <li>Human-Computer Interaction (HCI)</li>
+                    </ul>
+
+                    <p><strong>Undergraduate:</strong></p>
+                    <ul>
+                        <li><strong>CS Courses:</strong> C/C++, C#, Python, Analysis of Algorithms, Database, Operating Systems, Artificial Intelligence, Software Engineering</li>
+                        <li><strong>Mathematics Courses:</strong> Calculus, Differential Equations, Linear Algebra, Numerical Analysis, Statistics</li>
+                    </ul>
+                </div>
+
+                <!-- MOOCs Section -->
+                <div class="text moocs" id="moocs">
+                    <h2>MOOCs</h2>
+                    <ul>
+                        <li>Computer Vision Basics by University at Buffalo and The State University of New York (Coursera)</li>
+                        <li>Deep Learning in Computer Vision by National Research University Higher School of Economics (Coursera)</li>
+                        <li>AWS Machine Learning Foundation Course (Udacity)</li>
+                        <li>Introduction to Deep Learning using PyTorch (Udacity)</li>
+                        <li>Using Python for Research by HarvardX (edX)</li>
+                        <li>Deep Learning with TensorFlow by IBM (edX)</li>
+                        <li>Deep Learning Fundamentals with Keras by IBM (edX)</li>
+                        <li>Introduction to Statistics (Udacity)</li>
+                        <li>Statistics and Probability in Data Science using Python by University of California, San Diego (edX)</li>
+                        <li>Data Science: Visualization by HarvardX (edX)</li>
+                    </ul>
+                </div>
+
+                <!-- Honors & Awards Section -->
+                <div class="text honors" id="honors">
+                    <h2>Honors & Awards</h2>
+                    <ul>
+                        <li>2016: Gold Medal for Securing Highest CGPA in College</li>
+                        <li>2016: Gold Medal for Securing Highest CGPA in University</li>
+                        <li>2017-2019: Merit Scholarship by University for MS Studies</li>
+                    </ul>
+                </div>
+
+                <!-- Interests Section -->
+                <div class="text interests" id="interests">
+                    <h2>Interests</h2>
+                    <p>• Food • Health • Videography • Travel</p>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="text contact" id="contact">
+                    <h2>Contact</h2>
+                    <p>
+                        Sana Saeed<br>
+                        Computer Science and Engineering<br>
+                        University of Washington<br>
+                        Box 352350<br>
+                        Seattle, WA 98195-2350<br><br>
+                        <strong>Email:</strong> sanasaeed40994@gmail.com<br>
+                        <strong>Phone:</strong> +92-313-5925939<br>
+                        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sana-saeed-nlp/">sana-saeed-nlp</a><br>
+                        <strong>GitHub:</strong> <a href="https://github.com/Sana-Saeed">Sana-Saeed</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
